@@ -1,0 +1,26 @@
+.sidebar_wrapper {
+  box-sizing: border-box;
+  height: 232px;
+  width: 263px;
+  padding: 60px 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.sidebar_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding-left: 15px;
+
+  &_item {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.active {
+  font-weight: 700;
+}
