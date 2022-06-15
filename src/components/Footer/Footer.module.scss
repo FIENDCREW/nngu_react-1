@@ -9,4 +9,10 @@
 
 .page_footer_logo {
   display: flex;
+  justify-content: space-between;
+  width: 32px;
+}
+.page_logo {
+  border-right:1px solid rgb(176, 176, 176); 
+  padding-right:10px;
 }
