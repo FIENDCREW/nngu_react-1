@@ -2,8 +2,6 @@ import React from 'react';
 import Footer from '../Footer';
 import Header from '../Header';
 import ItemsList from '../ItemsList';
-import List from '../List';
-import Search from '../Search';
 import Sidebar from '../Sidebar';
 import style from './MainPage.module.scss';
 
@@ -18,8 +16,6 @@ const MainPage = () => {
           </div>
           <div className={style.page_content}>
             <ItemsList />
-            <Search />
-            <List />
           </div>
         </div>
         <div className={style.page_footer}> </div>

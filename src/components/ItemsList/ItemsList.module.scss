@@ -1,8 +1,9 @@
 .items_list__wrapper {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   border: 0.5px solid;
   align-items: center;
+  flex-direction: column;
 }
 
 .items_list {
@@ -23,6 +24,13 @@
 
   background-color: #4877f2;
   border-radius: 4px;
-  border: 0px ;
+  border: 0px;
+}
 
+.item_json {
+}
+
+.item_sort{
+  display: flex;
+  justify-content: space-between;
 }
