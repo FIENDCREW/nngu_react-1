@@ -4,7 +4,8 @@ import style from './Sidebar.module.scss';
 const Sidebar = () => {
   return (
     <div className={style.sidebar_wrapper}>
-      <div>Admins</div>
+      <div>Super Admin</div>
+      <p>Admin-menu</p>
       <hr />
       <div>Объявления</div>
       <hr />

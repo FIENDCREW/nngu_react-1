@@ -4,10 +4,13 @@ import style from './ItemsList.module.scss';
 const ItemsList = () => {
   return (
     <div className={style.items_list__wrapper}>
-      <p>Список товаров:</p>
       <div className={style.items_list}>
-        <div>Spisok</div>
+        <div>Объявления</div>
+        <div>Всего:</div>
       </div>
+      <button type="button" className={style.item_button}>
+        Добавить
+      </button>
     </div>
   );
 };
